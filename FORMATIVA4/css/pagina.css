@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(254, 179, 238);
+    background: radial-gradient(circle, rgba(254, 179, 238, 1) 0%,
+            rgba(254, 179, 238, 1) 50%, rgba(255, 125, 205, 1) 100%);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+img#pink{
+width: 100px;
+}
+header {
+    background-color: #c90048;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ff3483;
+    text-decoration: line-through;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    color: white;
+    background: rgb(254, 179, 238);
+    background: radial-gradient(circle, rgba(254, 179, 238, 1) 0%,
+            rgba(254, 179, 238, 1) 50%, rgba(255, 125, 205, 1) 100%);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #c90048;
+}
+
+li:hover {
+    font-size: large;
+    color: #ff3483;
+    text-decoration: line-through;
+}
+
+h2 {
+    color: #ed004d;
+}
+
+fieldset {
+    padding: 0;
+    border-color: #c90048;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    background-color: #c90048;
+}
+
+table,
+th,
+td {
+    border: 1px solid white
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+td#ori:hover{
+    font-size: large;
+    color: #fe96c7;
+    text-decoration:line-through;
+}
+td#promo:hover{
+    font-size: large;
+    color: #21a943;
+    text-decoration: line-through;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input,
+textarea {
+    color: #ff3483;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ed004d;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ed004d;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+button:hover {
+    color: #fe96c7;
+    font-size: large;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #c90048;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin-top: 0;
+}

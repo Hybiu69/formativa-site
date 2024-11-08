@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME_LTDA</title>
+    <link rel="stylesheet" href="/css/pagina.css">
+</head>
+<body>
+    <header>
+        
+        <h1>Bem-vindo ao HyperPrime</h1>
+        <a href > <img src="/img/pink.png" alt="pink" id="pink"> </a>
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#promocoes">Promoções</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="produtos">
+            <h2>Principais Produtos</h2>
+            <ul>
+                <li>Arroz</li>
+                <li>Feijão</li>
+                <li>Macarrão</li>
+                <li>Óleo</li>
+                <li>Açúcar</li>
+            </ul>
+        </section>
+
+        <section id="promocoes">
+            <h2>Promoções</h2>
+            <fieldset>
+            <table>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço Original</th>
+                    <th>Preço Promocional</th>
+                </tr>
+                <tr>
+                    <td>Arroz</td>
+                    <td id="ori">R$ 20,00</td>
+                    <td  id="promo">R$ 15,00</td>
+                </tr>
+                <tr>
+                    <td>Feijão</td>
+                    <td id="ori">R$ 10,00</td>
+                    <td  id="promo">R$ 8,00</td>
+                </tr>
+            </table>
+        </fieldset>
+        </section>
+
+        <section id="contato">
+            <h2>Fale Conosco</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p> &copy; 2024 HyperPrime PRIME_LTDA. Todos os direitos reservados.</p>
+    </footer>
+    
+    <audio loop autoplay>
+        <source src="/img/theme.mp3" type="audio/mp3">
+      </audio>
+</body>
+</html>
